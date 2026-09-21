@@ -51,13 +51,25 @@ body {
 
 .ramo { display: flex; justify-content: center; margin-bottom: 20px; }
 
-.girasol { position: relative; width: 120px; height: 120px; animation: girar 20s linear infinite; }
+/* ---------- GIRASOL ---------- */
+.girasol {
+    position: relative;
+    width: 120px;
+    height: 120px;
+    animation: girar 20s linear infinite;
+}
 
-@keyframes girar { from { transform: rotate(0deg); } to { transform: rotate(360deg); } }
+@keyframes girar {
+    from { transform: rotate(0deg); }
+    to   { transform: rotate(360deg); }
+}
 
 .centro {
-    position: absolute; top: 50%; left: 50%;
-    width: 45px; height: 45px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 45px;
+    height: 45px;
     background: radial-gradient(circle, #6d4c41, #4e342e);
     border-radius: 50%;
     transform: translate(-50%, -50%);
@@ -66,13 +78,17 @@ body {
 }
 
 .petalo {
+    position: absolute;    /* ⬅ ESTO FALTABA */
+    top: 50%;              /* ⬅ Y ESTO */
+    left: 50%;             /* ⬅ Y ESTO */
     width: 22px;
-    height: 60px;         /* ← cambia a 60px */
+    height: 60px;
     background: linear-gradient(to top, #ffeb3b, #ffc107);
     border-radius: 50% 50% 20% 20%;
     transform-origin: 50% 100%;
     margin-left: -11px;
-    margin-top: -60px;    /* ← se queda igual */
+    margin-top: -60px;
+    z-index: 1;
 }
 
 .petalo:nth-child(2) { transform: rotate(0deg); }
@@ -84,6 +100,7 @@ body {
 .petalo:nth-child(8) { transform: rotate(270deg); }
 .petalo:nth-child(9) { transform: rotate(315deg); }
 
+/* ---------- TEXTOS ---------- */
 h1 {
     font-family: 'Dancing Script', cursive;
     font-size: 2.8rem;
