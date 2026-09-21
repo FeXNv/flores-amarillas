@@ -24,7 +24,7 @@ const frases = [
     "Gracias por existir 💛",
     "Nunca cambies ✨",
     "Ahora que me cambiaste igual por otr@",
-    "Eres luz en días grises ☀️ Vamos a tomar ",
+    "Eres luz en días grises ☀️ Vamos a tomar Goo ",
     "¡Un abrazo enorme! 🤗"
 ];
 
