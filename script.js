@@ -23,8 +23,8 @@ const frases = [
     "¡Eres la mejor! 🌻",
     "Gracias por existir 💛",
     "Nunca cambies ✨",
-    "Te mereces todas las flores del mundo 🌼",
-    "Eres luz en días grises ☀️",
+    "Ahora que me cambiaste igual por otr@",
+    "Eres luz en días grises ☀️ Vamos a tomar ",
     "¡Un abrazo enorme! 🤗"
 ];
 
