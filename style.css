@@ -66,12 +66,13 @@ body {
 }
 
 .petalo {
-    position: absolute; top: 50%; left: 50%;
-    width: 22px; height: 45px;
+    width: 22px;
+    height: 60px;         /* ← cambia a 60px */
     background: linear-gradient(to top, #ffeb3b, #ffc107);
     border-radius: 50% 50% 20% 20%;
     transform-origin: 50% 100%;
-    margin-left: -11px; margin-top: -60px;
+    margin-left: -11px;
+    margin-top: -60px;    /* ← se queda igual */
 }
 
 .petalo:nth-child(2) { transform: rotate(0deg); }
